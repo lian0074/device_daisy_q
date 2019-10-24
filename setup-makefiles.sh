@@ -19,10 +19,10 @@
 set -e
 
 # Required!
-export DEVICE=tissot
+export DEVICE=daisy
 export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
 
-export DEVICE_BRINGUP_YEAR=2017
+export DEVICE_BRINGUP_YEAR=2018
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@

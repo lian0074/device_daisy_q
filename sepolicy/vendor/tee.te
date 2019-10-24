@@ -1,0 +1,5 @@
+allow tee fingerprintd_data_file:dir rw_dir_perms;
+allow tee fingerprintd_data_file:file create_file_perms;
+
+allow tee block_device:blk_file { getattr open read write };
+allow tee system_file:file { execute getattr open read };

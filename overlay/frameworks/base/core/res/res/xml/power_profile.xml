@@ -14,7 +14,7 @@
     <item name="gps.on">68.84</item>
     <item name="radio.active">134.84</item>
     <item name="radio.scanning">10</item>
-    <array name="cpu.speeds">
+    <array name="cpu.core_speeds">
         <value>200000</value>
         <value>499200</value>
         <value>533333</value>
@@ -23,7 +23,7 @@
         <value>1094400</value>
         <value>1209600</value>
     </array>
-    <array name="cpu.active">
+    <array name="cpu.core_power">
         <value>151</value>
         <value>169</value>
         <value>177</value>
@@ -34,5 +34,5 @@
     </array>
     <item name="cpu.awake">1.6</item>
     <item name="cpu.idle">1.6</item>
-    <item name="battery.capacity">3000</item>
+    <item name="battery.capacity">4000</item>
 </device>

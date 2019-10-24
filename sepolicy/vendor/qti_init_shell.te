@@ -1,0 +1,10 @@
+allow qti_init_shell mnt_vendor_file:dir rmdir;
+allow qti_init_shell self:capability dac_override;
+allow qti_init_shell sysfs_leds:dir setattr;
+allow qti_init_shell sysfs_leds:file setattr;
+allow qti_init_shell system_data_file:dir { getattr read write open remove_name rmdir };
+allow qti_init_shell system_data_file:file { getattr unlink };
+allow qti_init_shell fpc_sysfs:dir setattr;
+allow qti_init_shell fpc_sysfs:file setattr;
+allow qti_init_shell sysfs_graphics:dir setattr;
+allow qti_init_shell ctl_start_prop:property_service set;

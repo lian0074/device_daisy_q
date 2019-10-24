@@ -1,0 +1,4 @@
+allow fsck self:capability { dac_override dac_read_search };
+allow fsck tmpfs:blk_file getattr;
+allow fsck block_device:blk_file { ioctl open read write };
+

@@ -1,0 +1,4 @@
+allow system_server mm-qcamerad:binder call;
+
+# Smart charging
+allow system_server sysfs_battery_supply:file { getattr open read write };

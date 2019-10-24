@@ -1,0 +1,5 @@
+allow shell init_exec:file getattr;
+allow shell mnt_vendor_file:lnk_file { getattr read };
+allow shell postinstall_mnt_dir:dir getattr;
+allow shell rootfs:file getattr;
+allow shell cache_file:lnk_file getattr;
