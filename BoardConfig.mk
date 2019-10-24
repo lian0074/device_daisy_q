@@ -31,7 +31,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := daisy_defconfig
-TARGET_KERNEL_VERSION := 4.9
+TARGET_KERNEL_VERSION := 3.18
 
 # Add libprocessgroup dependency required for set_sched_policy function.
 USE_LIB_PROCESS_GROUP := true
